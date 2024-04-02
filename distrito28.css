@@ -1,0 +1,99 @@
+/* Adiciona cor de fundo a barra de navegação*/
+.nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Estiliza os links de navegação */
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+/* Muda a cor do link ao passar o mouse */
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+/* Adiciona cor ao link atual */
+.nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px; 
+    width: 100%;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+  
+  .img { 
+    width: 10%;
+    height: 10%;
+  }
+
+  .d-block {
+    width: 100%;
+    margin: auto;
+  }
+
+  a {
+    size: 150px;
+    text-decoration: none;
+  }
+
+  a:link { 
+    size: 150%;
+    text-decoration: none;
+  } 
+
+  a:visited { 
+    size: 150%;
+    text-decoration: none;
+  } 
+
+  a:hover { 
+    size: 150%;
+    text-decoration: none;
+  } 
+
+  a:active { 
+    size: 150%;
+    text-decoration: none; 
+  }
+
+  .carousel-control-next,
+.carousel-control-prev  {
+    filter: invert(150%);
+}
+
+.informacoes {
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  /* Setup */
+  position: relative;
+}
+
+.descricao {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+}
